@@ -1,8 +1,19 @@
 {
-  "dependencies": {
-    "git": "^0.1.5"
+  "name": "minimal-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "setup": "node setup.js"
   },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
-  }
-}
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sqlite": "^5.0.1",
+    "sqlite3": "^5.1.6"
+  },
+  "type": "module"
+} 
